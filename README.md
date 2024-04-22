@@ -1,4 +1,20 @@
-# Web Scraping De Capitales Del Mundo
+# Capital De País (scraping)
 
-Este es un proyecto de Python que realiza web scraping para obtener información sobre las capitales de todos los países del mundo desde una fuente en línea. 
-Utiliza unas bibliotecas para analizar el HTML de las páginas web y extraer la información relevante.
+Este proyecto consiste en un programa escrito en Python que extrae la capital de un país desde la página de Wikipedia "Anexo:Capitales_de_Estado". Utiliza la biblioteca pandas para leer las tablas de la página web y buscar el país ingresado por el usuario.
+
+## Funcionalidades
+
+El programa realiza las siguientes funciones:
+
+- Solicita al usuario que ingrese el nombre de un país.
+- Busca el país en la página de Wikipedia y extrae su capital, si está disponible.
+- Imprime la capital del país ingresado por el usuario.
+
+## Cómo Utilizar
+
+1. Descarga o clona el repositorio en tu máquina local.
+2. Asegúrate de tener Python instalado en tu sistema.
+3. Instala las dependencias necesarias ejecutando `pip install pandas`.
+4. Ejecuta el programa utilizando el comando `python tu_programa.py`.
+5. Sigue las instrucciones en pantalla e ingresa el nombre del país deseado.
+6. El programa mostrará la capital del país ingresado por el usuario, si está disponible.
