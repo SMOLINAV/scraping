@@ -7,6 +7,8 @@ returns:
     capital (str): capital del pais
     None (None): si no se encuentra la capital
 '''
+
+
 def extraer_capitales(pais):
     # URL de la página que contiene la lista de capitales
     url = "https://es.wikipedia.org/wiki/Anexo:Capitales_de_Estado"
@@ -22,6 +24,8 @@ def extraer_capitales(pais):
 
     # Si no se encontró el país o la capital, devolver None
     return None
+
+
 
 # Pedir al usuario que ingrese el nombre del país
 nombre_pais = input("Ingresa el nombre del país para obtener su capital: ")
