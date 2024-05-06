@@ -12,9 +12,8 @@ El programa realiza las siguientes funciones:
 
 ## Cómo Utilizar
 
-1. Descarga o clona el repositorio en tu máquina local.
-2. Asegúrate de tener Python instalado en tu sistema.
-3. Instala las dependencias necesarias ejecutando `pip install pandas`.
-4. Ejecuta el programa utilizando el comando `python tu_programa.py`.
-5. Sigue las instrucciones en pantalla e ingresa el nombre del país deseado.
-6. El programa mostrará la capital del país ingresado por el usuario, si está disponible.
+1. abrir el archivo Cap.
+2. Tocar el boton open in colab.
+3. En la pagina de colab, ejecutarlo.
+4. Al ejecutarlo te pedi que ingreses el nombre del que quieres consultar.
+5. Ingresar nombre del pais y presionar enter en el teclado, te dira la capital.
