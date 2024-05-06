@@ -1,15 +1,14 @@
 import pandas as pd
-'''
-esta funcion extrae la capital de un pais dada por el usuario
-args:
-    pais (str): nombre del pais
-returns:
-    capital (str): capital del pais
-    None (None): si no se encuentra la capital
-'''
-
 
 def extraer_capitales(pais):
+    '''
+    esta funcion extrae la capital de un pais dada por el usuario
+    args:
+        pais (str): nombre del pais
+    returns:
+        capital (str): capital del pais
+        None (None): si no se encuentra la capital
+    '''
     # URL de la página que contiene la lista de capitales
     url = "https://es.wikipedia.org/wiki/Anexo:Capitales_de_Estado"
 
